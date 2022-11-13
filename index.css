@@ -1,0 +1,46 @@
+body{
+    background-color: #CCC;
+    margin: 0;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    transition: 100ms;
+
+}
+.element{
+    font-size: 40px;
+
+
+}
+
+.element:hover{
+    transform: scale(1.2);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,0.1fr);
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    
+    
+}
+
+.grid div{
+    font-size: 20px;
+    color: red;
+
+
+}
+
+.grid .selection{
+    font-size: 40px;
+   
+}
+
+
+
